@@ -1,7 +1,5 @@
 public class Tribonacci {
     public static void main(String[] args) {
-      String r = "T(n-1) + T(n-2) + T(n-3)";
-
       for (int n= 0;n<15;n++) {
         System.out.println("T("+n+")=="+t(n));
       }
@@ -19,7 +17,6 @@ public class Tribonacci {
         }
         else{
           temp = t(n-1) + t(n-2) + t(n-3);
-
         }
         return temp;
       }
